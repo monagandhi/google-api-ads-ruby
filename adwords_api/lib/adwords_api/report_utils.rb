@@ -131,7 +131,7 @@ module AdwordsApi
       headers = {
           'Authorization' => auth_string,
           'ClientCustomerId' => customer_id,
-          'Content-Type' => 'application/x-www-form-urlencoded',
+          #'Content-Type' => 'application/x-www-form-urlencoded',
           'developerToken' => credentials[:developerToken],
           'User-Agent' => "HTTPI/%s (%s)" % [HTTPI::VERSION, app_name]
       }
